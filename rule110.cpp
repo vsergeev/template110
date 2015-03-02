@@ -10,7 +10,7 @@ int main() {
     for (const auto &state : states) {
         for (const auto &elem : state) {
             if (elem)
-                std::cout << "*";
+                std::cout << "█";
             else
                 std::cout << " ";
         }
