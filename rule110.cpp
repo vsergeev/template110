@@ -3,8 +3,8 @@
 #include "rule110.hpp"
 
 int main() {
-    /* Evolve initial state of 25 cells for 30 generations */
-    constexpr std::array<State<25>, 30> states = evolve<25, 30>(State<25>{{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1}});
+    /* Evolve initial state of 50 cells for 45 generations */
+    constexpr std::array<State<50>, 45> states = evolve<50, 45>(State<50>{{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1}});
 
     /* Print out the state from each generation */
     for (const auto &state : states) {
