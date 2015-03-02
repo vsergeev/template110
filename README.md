@@ -1,6 +1,6 @@
 # Rule 110 in C++11 Templates
 
-Rule 110 implemented with C++11 templates and `std::array`.
+[Rule 110](http://en.wikipedia.org/wiki/Rule_110) implemented with C++11 templates and `std::array`.
 
 ```
 $ make
